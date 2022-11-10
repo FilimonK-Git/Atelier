@@ -1,10 +1,34 @@
-# FEC
-Project Atelier (Front-End Capstone)
+# Project Atelier 
+  > A new sleek retail portal created to be easily adaptable, changed, or adjusted, by any interested companies to update their own out-dated e-commerce websites.
 
-## Group: Lexicon
 
-### Description
-Front End Capstone (FEC) project requested by HackReactor, developed and designed by team Lexicon, utilizing primarily React and Express, and deployed with the help of Amazon Web Services (AWS). A new sleek retail portal created to be easily adaptable, changed, or adjusted, by any interested companies to update their own out-dated e-commerce websites.
+
+## Tech Stack
+
+<div align='center'>
+
+<img src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&style=for-the-badge&logoColor=black">
+<img src="https://shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge">
+<img src="https://shields.io/badge/Node-339933?logo=node.js&logoColor=black&style=for-the-badge">
+<img src="https://shields.io/badge/Express-000000?logo=express&logoColor=white&style=for-the-badge">
+<img src="https://shields.io/badge/Jquery-0769AD?logo=jquery&logoColor=white&style=for-the-badge">
+<img src="https://shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white&style=for-the-badge">
+<img src="https://shields.io/badge/Babel-F9DC3E?logo=babel&logoColor=black&style=for-the-badge">
+<img src="https://shields.io/badge/Webpack-8DD6F9?logo=webpack&logoColor=black&style=for-the-badge">
+<img src="https://shields.io/badge/Jest-C21325?logo=jest&logoColor=white&style=for-the-badge">
+<img src="https://shields.io/badge/Reacttestinglibrary-E33332?logo=TestingLibrary&logoColor=white&style=for-the-badge">
+
+ 
+</div>
+
+
+## Contributors
+* [Filimon Kiros](https://github.com/FilimonK-Git) - Related Products
+* [Ai Lam](https://github.com/ai-lam) - Ratings and Reviews
+* [Jason Novacovici](https://github.com/JNovacovici) - Main Overview
+* [Miras Adilov](https://github.com/AdilovM) - Questions and Answers
+
+
 
 ## Table of Contents
 1. [Product Overview](#product-overview)
@@ -26,8 +50,9 @@ Front End Capstone (FEC) project requested by HackReactor, developed and designe
   
 </details>
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/81248975/182035200-8780bdd4-bbe0-4668-a536-cccba8a5e3b6.gif)
-
+<div align='center'>
+<img src="https://user-images.githubusercontent.com/81248975/182035200-8780bdd4-bbe0-4668-a536-cccba8a5e3b6.gif"  width="850" height="500" />
+</div>
   
 ### Related Products
 
@@ -41,7 +66,9 @@ Front End Capstone (FEC) project requested by HackReactor, developed and designe
   
 </details>
 
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/81248975/182035560-6bd42bf3-ae35-436e-bb7f-33b6b8f96e0a.gif)
+<div align='center'>
+<img src="https://user-images.githubusercontent.com/81248975/182035560-6bd42bf3-ae35-436e-bb7f-33b6b8f96e0a.gif"  width="850" height="500" />
+</div>
 
 ### Questions and Answers
 
@@ -51,7 +78,9 @@ Front End Capstone (FEC) project requested by HackReactor, developed and designe
  * Asking a question
  * Answering a question
 
-![qna](https://user-images.githubusercontent.com/97697504/181936240-6ab7479c-2439-4ecf-a93a-8dfaff5fbf80.gif)
+<div align='center'>
+<img src="https://user-images.githubusercontent.com/97697504/181936240-6ab7479c-2439-4ecf-a93a-8dfaff5fbf80.gif"  width="850" height="500" />
+</div>
 
 <details>
   
@@ -68,8 +97,9 @@ The ratings and reviews section gives the users an overview of how the product i
  * Reviews: highly detailed review items which include personal opinions, review date, helpfulness votes, recommendation, etc. Users can sort the list by order of relevance, helpfulness, and newest. Users can also submit a review on the product.
  * Product characteristics: this section displays how the produc performs in terms of quality, comfort, fit, etc. 
 
-![ReviewsGif](https://user-images.githubusercontent.com/88561551/181996410-a04512b7-0af2-490a-9d50-8ac84f8e6409.gif)
-
+<div align='center'>
+<img src="https://user-images.githubusercontent.com/88561551/181996410-a04512b7-0af2-490a-9d50-8ac84f8e6409.gif"  width="850" height="500" />
+</div>
 
 ## Installation
 
@@ -86,19 +116,7 @@ npm run webpack
 ```
 npm start
 ```
-## Contributors
-* [Ai Lam](https://github.com/ai-lam) - Ratings and Reviews
-* [Filimon Kiros](https://github.com/FilimonK-Git) - Related Products
-* [Jason Novacovici](https://github.com/JNovacovici) - Main Overview
-* [Miras Adilov](https://github.com/AdilovM) - Questions and Answers
-## Tech Stack
 
-* [React](https://reactjs.org/)
-* [Node](https://nodejs.org/en/)
-* [Amazon AWS](https://aws.amazon.com/)
-* [Babel](https://babeljs.io/)
-* [Webpack](https://webpack.js.org/)
-* [JEST](https://jestjs.io/)
-* [React Testing Library](https://testing-library.com/docs/react-testing-library/setup)
-* [Express](http://expressjs.com/)
-* [Underscore](https://underscorejs.org/)
+
+
+

@@ -72,31 +72,34 @@
 
 ### Questions and Answers
 
-> The Questions & Answers part allows a user to search for a question, to add answers and questions about the product selected. This part consists of four subparts and each subpart has its own unique functionality.
- * View questions
- * Search for a question
- * Asking a question
- * Answering a question
-
-<div align='center'>
-<img src="https://user-images.githubusercontent.com/97697504/181936240-6ab7479c-2439-4ecf-a93a-8dfaff5fbf80.gif"  width="850" height="500" />
-</div>
+> The Questions & Answers part allows a user to search for a question, to add answers and questions about the product selected. 
 
 <details>
   
+ * Consists of four subparts and each subpart has its own unique functionality: View questions; Search for a question; Asking a question; Answering a question
  * Questions and Answers subcomponent shows list of questions that have been asked about the given product.
  * The list of questions and answers can be expanded and collapsed per user's choice. By default, two questions are displayed. The questions are sorted based on their helpfulness rating and user can load more questions by clicking "More Questions" button.
  * The list will instantly be changed to search result list based on a key word that user types in search bar. The search result list is generated after third keystoke.
   
 </details>
 
+<div align='center'>
+<img src="https://user-images.githubusercontent.com/97697504/181936240-6ab7479c-2439-4ecf-a93a-8dfaff5fbf80.gif"  width="850" height="500" />
+</div>
+
 ### Ratings and Reviews
 
-The ratings and reviews section gives the users an overview of how the product is liked by customers. The section is divided into three parts:
+  > The ratings and reviews section gives the users an overview of how the product is liked by customers. 
+
+<details>
+
+The section is divided into three parts:
  * Ratings: allows users to have a statistics of how the product is generally rated by previous buyers. This section is filterable by the star rating to only show reviews of those specific star types.
  * Reviews: highly detailed review items which include personal opinions, review date, helpfulness votes, recommendation, etc. Users can sort the list by order of relevance, helpfulness, and newest. Users can also submit a review on the product.
  * Product characteristics: this section displays how the produc performs in terms of quality, comfort, fit, etc. 
 
+</details>  
+  
 <div align='center'>
 <img src="https://user-images.githubusercontent.com/88561551/181996410-a04512b7-0af2-490a-9d50-8ac84f8e6409.gif"  width="850" height="500" />
 </div>

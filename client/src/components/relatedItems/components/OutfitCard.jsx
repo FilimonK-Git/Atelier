@@ -10,8 +10,6 @@ class OutfitCard extends React.Component {
     this.state = {};
   }
 
-  componentDidMount() {}
-
   render() {
     var selectedPhoto = this.props.prodStyle[0].photos[0].url;
     if (!selectedPhoto) selectedPhoto = placeholder;
@@ -23,11 +21,6 @@ class OutfitCard extends React.Component {
         onClick={(e) => {
           this.props.prodIDChanger(this.props.prodInfo[0].id);
           this.props.relatedItemsUpdater(this.props.prodInfo[0].id);
-          // let timeOfClick = new Date().toLocaleString("en-US", {
-          //   hour12: false,
-          // });
-          // let element = `Selectors: {LocalName: ${e.target.localName}, ClassName: ${e.target.className}, innerHTML: ${e.target.innerHTML}}`;
-          // this.props.userTracker(element, "Related-outfit Widget", timeOfClick);
         }}
       >
         <div
@@ -102,7 +95,6 @@ class OutfitCard extends React.Component {
               </div>
             </div>
           )}
-          {/* <div className="stars"> star {this.props.prodRating}</div> */}
         </div>
       </div>
     );

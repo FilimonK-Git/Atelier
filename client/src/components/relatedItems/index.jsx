@@ -119,16 +119,12 @@ class RelatedAndOutfit extends React.Component {
         });
       },
       error: (err) => {
-        // throw new Error("Retrieving ids of related products failed: ", err);
-        // console.log()
+        throw new Error("Retrieving ids of related products failed: ", err);
       },
     });
   }
   carouselSizeOnMount() {
     var screenWidth = document.body.clientWidth;
-    // card width: 182.67px
-    // add btn: 110px
-    // padd/marg: 15+15 +40+40 +50+40 +15+15 +25+25= 280
     var outfitsWidth = this.props.outfitItems.length * 182.67 + 110 + 280;
 
     if (screenWidth < outfitsWidth) {
@@ -202,7 +198,6 @@ class RelatedAndOutfit extends React.Component {
           this.setState({ xLeftFrame });
           var sWid = document.querySelector(targetClass).scrollWidth;
           var ofWid = document.querySelector(targetClass).offsetWidth;
-          // console.log("sw", sWid, "ow", ofWid, "xLF", Math.round(xLeftFrame));
           if (
             Math.round(xLeftFrame) + ofWid === sWid ||
             Math.round(xLeftFrame) + ofWid === sWid - 1
@@ -219,7 +214,6 @@ class RelatedAndOutfit extends React.Component {
           this.setState({ xOutfitLeftFrame });
           var sWid = document.querySelector(targetClass).scrollWidth;
           var ofWid = document.querySelector(targetClass).offsetWidth;
-          // console.log(sWid, ofWid, Math.round(xOutfitLeftFrame));
           if (
             Math.round(xOutfitLeftFrame) + ofWid === sWid ||
             Math.round(xOutfitLeftFrame) + ofWid === sWid - 1
@@ -297,9 +291,7 @@ class RelatedAndOutfit extends React.Component {
           this.props.userTracker(element, "Related Widget", timeOfClick);
         }}
       >
-        <div
-          className="relatedProductsMainClass" // mainD
-        >
+        <div className="relatedProductsMainClass">
           <span>RELATED PRODUCTS</span>
           {this.state.xLeftFrame === 0 ? null : (
             <button

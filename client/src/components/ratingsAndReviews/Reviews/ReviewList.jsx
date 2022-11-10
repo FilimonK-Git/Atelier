@@ -1,11 +1,11 @@
-import React from 'react';
-import ReviewItem from './ReviewItem.jsx';
-import MoreReviews from './MoreReviews.jsx';
-import AddFirstReview from './AddFirstReview.jsx';
-import AddAnotherReview from './AddAnotherReview.jsx';
-import ReviewsHeading from './ReviewsHeading.jsx';
-import ReviewModal from './ReviewModal.jsx';
-const axios = require('axios');
+import React from "react";
+import ReviewItem from "./ReviewItem.jsx";
+import MoreReviews from "./MoreReviews.jsx";
+import AddFirstReview from "./AddFirstReview.jsx";
+import AddAnotherReview from "./AddAnotherReview.jsx";
+import ReviewsHeading from "./ReviewsHeading.jsx";
+import ReviewModal from "./ReviewModal.jsx";
+const axios = require("axios");
 
 class ReviewList extends React.Component {
   constructor(props) {
@@ -203,7 +203,17 @@ class ReviewList extends React.Component {
     let reviewModalComponent;
 
     if (this.state.showReviewModal) {
-      reviewModalComponent = <ReviewModal showReviewModal={this.state.showReviewModal} productInfo={this.props.productInfo} closeReviewModalFunc={this.closeReviewModalFunc} productInfo={this.props.productInfo} metaData={this.props.metaData} getAllReviewsFunc={this.props.getAllReviewsFunc} productName={this.props.productName}/>;
+      reviewModalComponent = (
+        <ReviewModal
+          showReviewModal={this.state.showReviewModal}
+          productInfo={this.props.productInfo}
+          closeReviewModalFunc={this.closeReviewModalFunc}
+          productInfo={this.props.productInfo}
+          metaData={this.props.metaData}
+          getAllReviewsFunc={this.props.getAllReviewsFunc}
+          productName={this.props.productName}
+        />
+      );
     } else {
       reviewModalComponent = null;
     }
@@ -244,7 +254,7 @@ class ReviewList extends React.Component {
 
       return (
         <div>
-          Search for reviews: <input type="text" onChange={(e) => { this.props.searchReviewFunc(e.target.value); }}></input>
+          {/* Search for reviews: <input type="text" onChange={(e) => { this.props.searchReviewFunc(e.target.value); }}></input> */}
           {reviewsHeading}
           {addFirstReviewButton}
           {reviewModalComponent}
